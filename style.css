@@ -30,41 +30,20 @@ html, body {
   width: 100%;
 }
 
-
 .login.page {
   background-color: #000;
 }
 
-.login.page .form {
-  height: 100px;
-  margin-top: -100px;
-  position: absolute;
-
-  text-align: center;
-  top: 50%;
-  width: 100%;
-}
-
-.login.page .form .usernameInput {
-  background-color: transparent;
-  border: none;
-  border-bottom: 2px solid #fff;
-  outline: none;
-  /* padding-bottom: 15px; */
-  text-align: center;
-  width: 400px;
-}
-
-.login.page .title {
+.button {
   font-size: 200%;
-}
-
-#enterButton {
   border-color: #fff;
   border: 1px 1px 1px 1px;
   padding: 30px 30px 30px 30px;
   background-color: #000;
   color: #fff;
+}
+
+.buttons {
   position: absolute;
   top: 50%;
   left: 50%;
