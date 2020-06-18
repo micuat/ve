@@ -3,7 +3,7 @@
 }
 
 html {
-  font-weight: 300;
+  font-weight: 100;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -22,25 +22,30 @@ html, body {
   height: 100%;
   margin: 0;
   padding: 0;
-}
-
-.page {
-  height: 100%;
-  position: absolute;
-  width: 100%;
-}
-
-.login.page {
   background-color: #000;
+}
+
+.small {
+  font-size: 150%;
+}
+
+.large {
+  font-size: 200%;
 }
 
 .button {
-  font-size: 200%;
+  text-align: center;
   border-color: #fff;
-  border: 1px 1px 1px 1px;
+  border: 10px 1px 1px 1px;
+  border-style: solid;
+  margin: 5px 5px 5px 5px;
   padding: 30px 30px 30px 30px;
   background-color: #000;
   color: #fff;
+}
+
+p {
+  margin: 0;
 }
 
 .buttons {
