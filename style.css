@@ -25,6 +25,10 @@ html, body {
   background-color: #000;
 }
 
+a {
+  text-decoration:none;
+}
+
 .small {
   font-size: 150%;
 }
